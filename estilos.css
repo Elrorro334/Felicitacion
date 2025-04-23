@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to right, #ffdee9, #b5fffc);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.tarjeta {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  display: inline-block;
+}
+
+h1 {
+  color: #e91e63;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
+.oculto {
+  display: none;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 200px;
+  margin-top: 10px;
+}
